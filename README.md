@@ -6,7 +6,7 @@ A new Flutter project.
 # How It Will look 👇
 <table>
   <tr>
-      <td>![Screenshot_1681620787](https://user-images.githubusercontent.com/85013312/232272118-f960a6a0-9118-4ac8-ae09-ad515e59e3ce.png)
+      ![Screenshot_1681620787](https://user-images.githubusercontent.com/85013312/232272118-f960a6a0-9118-4ac8-ae09-ad515e59e3ce.png)
          
     </td>
         <td>  <img width="250" alt="underweight" src="https://user-images.githubusercontent.com/55774240/122741522-aafa5700-d2a2-11eb-94ac-83350f8860c8.jpg" />
