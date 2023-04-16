@@ -1,13 +1,14 @@
-# BMI CALCULATOR APP
+# BMI CALCULATOR 
 
-![BMI-Calculator-App](https://socialify.git.ci/Lakhankumawat/BMI-Calculator-App/image?font=KoHo&forks=1&issues=1&language=1&logo=https%3A%2F%2Fuser-images.githubusercontent.com%2F55774240%2F122743259-77b8c780-d2a4-11eb-9f0e-c50cada02cc7.gif&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark)
+![BMI-Calculator-App]([https://socialify.git.ci/Lakhankumawat/BMI-Calculator-App/image?font=KoHo&forks=1&issues=1&language=1&logo=https%3A%2F%2Fuser-images.githubusercontent.com%2F55774240%2F122743259-77b8c780-d2a4-11eb-9f0e-c50cada02cc7.gif&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark](https://www.medindia.net/patients/calculators/images/body-mass-index-bmi-chart.jpg)
 
 A new Flutter project.
 # How It Will look 👇
 <table>
   <tr>
-      <td>
-          <img width="250" alt="underweight" src="https://user-images.githubusercontent.com/55774240/122744527-af743f00-d2a5-11eb-84e7-b822a0d49278.jpg" /></td>
+      <td>![Screenshot_1681620787](https://user-images.githubusercontent.com/85013312/232272118-f960a6a0-9118-4ac8-ae09-ad515e59e3ce.png)
+         
+    </td>
         <td>  <img width="250" alt="underweight" src="https://user-images.githubusercontent.com/55774240/122741522-aafa5700-d2a2-11eb-94ac-83350f8860c8.jpg" />
       </td>
     </tr>
