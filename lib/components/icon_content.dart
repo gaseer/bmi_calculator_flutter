@@ -9,14 +9,15 @@ class iconText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
+    return Row(
+      crossAxisAlignment: CrossAxisAlignment.center,
+      mainAxisAlignment: MainAxisAlignment.start,
       children: <Widget>[
         Icon(
           icon,
-          size: 80,
+          size: 90,
         ),
-        SizedBox(height: 20),
+        SizedBox(width: 1),
         Text(
           teName,
           style: labelText,

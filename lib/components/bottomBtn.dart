@@ -18,9 +18,13 @@ class BottomButton extends StatelessWidget {
             style: largeText,
           ),
         ),
-        color: Colors.redAccent,
-        margin: EdgeInsets.only(top: 10.0),
-        padding: EdgeInsets.only(bottom: 20.0),
+        //color: Colors.redAccent,
+        margin: EdgeInsets.all(15.0),
+        padding: EdgeInsets.all(20.0),
+        decoration: BoxDecoration(
+            color: Colors.green, borderRadius: BorderRadius.circular(20)
+            //more than 50% of width makes circle
+            ),
         width: double.infinity,
         height: 80.0,
       ),

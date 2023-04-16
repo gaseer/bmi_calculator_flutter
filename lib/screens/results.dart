@@ -17,7 +17,7 @@ class Result extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('BMI Results'),
-        backgroundColor: Color(0XFF1D1E33),
+        backgroundColor: Colors.transparent,
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -36,7 +36,7 @@ class Result extends StatelessWidget {
           Expanded(
             flex: 5,
             child: ReusableCard(
-              colour: Color(0XFF1D1E33),
+              colour: Colors.grey,
               cardChild: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -46,7 +46,7 @@ class Result extends StatelessWidget {
                     style: const TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 40.0,
-                      color: Colors.tealAccent,
+                      color: Colors.greenAccent,
                     ),
                   ),
                   Text(
@@ -54,13 +54,14 @@ class Result extends StatelessWidget {
                     style: bigText,
                   ),
                   Text(
+                    textAlign: TextAlign.center,
                     'Normal BMI range:18.5 - 25 kg/m2',
                     style: labelText,
                   ),
                   Text(
                     interpretation,
                     textAlign: TextAlign.center,
-                    style: labelText,
+                    style: largeText,
                   ),
                 ],
               ),
@@ -76,9 +77,12 @@ class Result extends StatelessWidget {
                 'RE-CALCULATE',
                 style: largeText,
               )),
-              color: Colors.redAccent,
-              margin: EdgeInsets.only(top: 10.0),
-              padding: EdgeInsets.only(bottom: 20.0),
+              margin: EdgeInsets.all(15.0),
+              padding: EdgeInsets.all(20.0),
+              decoration: BoxDecoration(
+                  color: Colors.green, borderRadius: BorderRadius.circular(20)
+                  //more than 50% of width makes circle
+                  ),
               width: double.infinity,
               height: 80.0,
             ),

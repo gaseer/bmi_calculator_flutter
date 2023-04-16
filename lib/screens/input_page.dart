@@ -25,7 +25,8 @@ class _InputPageState extends State<InputPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color(0XFF1D1E33),
+        //shadowColor: Colors.red,
+        backgroundColor: Colors.transparent,
         title: const Text('BMI CALCULATOR'),
       ),
       body: Column(
@@ -43,7 +44,8 @@ class _InputPageState extends State<InputPage> {
                     },
                     child: ReusableCard(
                       colour: selGender == Gender.male ? cl : clTap,
-                      cardChild: iconText(icon: Icons.male, teName: 'Male'),
+                      cardChild:
+                          iconText(icon: Icons.man_3_sharp, teName: 'Male'),
                     ),
                   ),
                 ),
@@ -56,7 +58,7 @@ class _InputPageState extends State<InputPage> {
                     },
                     child: ReusableCard(
                       colour: selGender == Gender.female ? cl : clTap,
-                      cardChild: iconText(icon: Icons.female, teName: 'Female'),
+                      cardChild: iconText(icon: Icons.girl, teName: 'Female'),
                     ),
                   ),
                 ),
@@ -91,7 +93,7 @@ class _InputPageState extends State<InputPage> {
                   SliderTheme(
                     data: SliderTheme.of(context).copyWith(
                       thumbColor: Colors.redAccent,
-                      activeTrackColor: Colors.white,
+                      activeTrackColor: Color(0xDBDE7335),
                       overlayColor: const Color(0x29EB1555),
                       thumbShape:
                           RoundSliderThumbShape(enabledThumbRadius: 15.0),
@@ -191,9 +193,9 @@ class _InputPageState extends State<InputPage> {
                                 setState(() {
                                   age++;
                                 });
-                              })
+                              }),
                         ],
-                      )
+                      ),
                     ],
                   ),
                 ),
@@ -236,10 +238,10 @@ class RoundIconBtn extends StatelessWidget {
       onPressed: onPressed,
       constraints: BoxConstraints(
         minWidth: 56.0,
-        minHeight: 56.0,
+        minHeight: 54.0,
       ),
       shape: CircleBorder(),
-      fillColor: Colors.blueGrey,
+      fillColor: Colors.black38,
     );
   }
 }
