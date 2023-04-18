@@ -3,7 +3,8 @@ A new Flutter project.
 Not a cloned repository Build it from scratch. I had learned each and every concepts in this project.
 # How It Will look 👇
 <div align="center">
-    <img src="/bmi_home.png" width="400px"</img> 
+    <img src="/bmi_home.png" width="400px" height = "350px"</img> 
+    <img src="/bmi_home.png" width="400px" height="200px"</img> 
 </div>
          
 
