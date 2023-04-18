@@ -1,6 +1,6 @@
 # BMI CALCULATOR 
-A new Flutter project.
-##Things I had Learned from this project:
+Second Flutter project.
+## Things I had Learned from this project:
 <ul>
     <li>How to use Flutter themes and customize it</li>
     <li>Dart Functions, Maps, Lists</li>
