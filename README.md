@@ -8,9 +8,10 @@ Second Flutter project.
     <li>Screen Routes and Navigation</li>
     </ul>
 # Customized Widgets look 👇
-<div align="center">
-    <img src="/bmi_home.png" width="300px" height = "300px"</img> 
-    <img src="/bmi_home.png" width="300px" height="300px"</img> 
+<div >
+    <img src="/bmi_home.png" width="300px" height = "400px" style="vertical-align:middle;margin:50px 0px"</img> 
+    
+    <img src="/bmi_home.png" width="300px" height="400px" style="vertical-align:middle;margin:50px 0px"</img> 
 </div>
          
 
