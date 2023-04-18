@@ -2,7 +2,9 @@
 A new Flutter project.
 Not a cloned repository Build it from scratch. I had learned each and every concepts in this project.
 # How It Will look 👇
-![Alt text](/relative/path/to/bmi_home.png?raw=true "Optional Title")
+<div align="center">
+    <img src="/bmi_home.png" width="400px"</img> 
+</div>
          
 
 
