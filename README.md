@@ -2,7 +2,7 @@
 A new Flutter project.
 Not a cloned repository Build it from scratch. I had learned each and every concepts in this project.
 # How It Will look 👇
-     ![Screenshot_1681620787](https://user-images.githubusercontent.com/85013312/232272118-f960a6a0-9118-4ac8-ae09-ad515e59e3ce.png)
+![Alt text](/relative/path/to/bmi_home.png?raw=true "Optional Title")
          
 
 
