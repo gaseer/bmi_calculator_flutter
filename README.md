@@ -9,8 +9,8 @@ Second Flutter project.
     </ul>
 # Customized Widgets look 👇
 <div >
-    <img src="/bmi_home.png" width="300px" height = "400px" style="vertical-align:middle;margin:50px 0px"</img> 
-    
+    <img src="/bmi_home.png" width="300px" height = "400px"</img> 
+   
     <img src="/bmi_result.png" width="300px" height="400px"</img> 
 </div>
          
