@@ -1,7 +1,13 @@
 # BMI CALCULATOR 
 A new Flutter project.
-Not a cloned repository Build it from scratch. I had learned each and every concepts in this project.
-# How It Will look 👇
+##Things I had Learned from this project:
+<ul>
+    <li>How to use Flutter themes and customize it</li>
+    <li>Dart Functions, Maps, Lists</li>
+    <li>Dart OOP concept</li>
+    <li>Screen Routes and Navigation</li>
+    </ul>
+# Customized Widgets look 👇
 <div align="center">
     <img src="/bmi_home.png" width="400px" height = "350px"</img> 
     <img src="/bmi_home.png" width="400px" height="200px"</img> 
